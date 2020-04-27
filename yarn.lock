@@ -60,6 +60,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bignumber.js@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-8.1.1.tgz#4b072ae5aea9c20f6730e4e5d529df1271c4d885"
+
 bn.js@=2.0.4, bn.js@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-2.0.4.tgz#220a7cd677f7f1bfa93627ff4193776fe7819480"
@@ -222,8 +226,8 @@ escape-string-regexp@1.0.2:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz#4dbc2fe674e71949caf3fb2695ce7f2dc1d9a8d1"
 
 extend@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.0.tgz#5a474353b9f3353ddd8176dfd37b91c83a46f1d4"
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
 
 extsprintf@1.0.2:
   version "1.0.2"
@@ -386,9 +390,9 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-litecore-lib@^0.13.19:
-  version "0.13.21"
-  resolved "https://registry.yarnpkg.com/litecore-lib/-/litecore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
+litecore-lib@^0.13.22:
+  version "0.13.22"
+  resolved "https://registry.yarnpkg.com/litecore-lib/-/litecore-lib-0.13.22.tgz#7d7406be67582ee5fdf2ac0004ea6ad1d1d0d3f0"
   dependencies:
     bn.js "=2.0.4"
     bs58 "=2.0.0"
@@ -398,11 +402,11 @@ litecore-lib@^0.13.19:
     lodash "=3.10.1"
     scryptsy "=2.0.0"
 
-litecore-message@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/litecore-message/-/litecore-message-1.0.4.tgz#8998a0dd844ddd7a6e8a50ce31822ac6b6af6a1a"
+litecore-message@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/litecore-message/-/litecore-message-1.0.5.tgz#b95155c79f4794f2c70cdc751ddd6e7f20ba2712"
   dependencies:
-    litecore-lib "^0.13.19"
+    litecore-lib "^0.13.22"
 
 lodash@=3.10.1:
   version "3.10.1"
