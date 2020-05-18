@@ -58,7 +58,9 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "test": "NODE_ENV=test mocha -R spec --recursive"
+    "test": "NODE_ENV=test mocha -R spec --recursive",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "main": "lib",
   "bitcoreNode": "lib",
@@ -72,7 +74,8 @@
     "lru-cache": "^4.0.1",
     "morgan": "^1.7.0",
     "request": "^2.64.0",
-    "bignumber.js": "8.1.1"
+    "bignumber.js": "8.1.1",
+    "snyk": "^1.321.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -110,5 +113,6 @@
     "tmp": "tmp/insight-lite-api-0.4.4.tgz_1494469417761_0.21030485653318465"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/insight-lite-api/-/insight-lite-api-0.4.4.tgz"
+  "_resolved": "https://registry.npmjs.org/insight-lite-api/-/insight-lite-api-0.4.4.tgz",
+  "snyk": true
 }
