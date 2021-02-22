@@ -60,6 +60,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bignumber.js@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-8.1.1.tgz#4b072ae5aea9c20f6730e4e5d529df1271c4d885"
+  integrity sha512-QD46ppGintwPGuL1KqmwhR0O+N2cZUg8JG/VzwI2e28sM9TqHjQB10lI4QAaMHVbLzwVLLAwEglpKPViWX+5NQ==
+
 bn.js@=2.0.4, bn.js@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-2.0.4.tgz#220a7cd677f7f1bfa93627ff4193776fe7819480"
@@ -386,9 +391,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-litecore-lib@^0.13.19:
-  version "0.13.21"
-  resolved "https://registry.yarnpkg.com/litecore-lib/-/litecore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
+litecore-lib@^0.13.22:
+  version "0.13.22"
+  resolved "https://registry.yarnpkg.com/litecore-lib/-/litecore-lib-0.13.22.tgz#7d7406be67582ee5fdf2ac0004ea6ad1d1d0d3f0"
+  integrity sha1-fXQGvmdYLuX98qwABOpq0dHQ0/A=
   dependencies:
     bn.js "=2.0.4"
     bs58 "=2.0.0"
@@ -398,23 +404,25 @@ litecore-lib@^0.13.19:
     lodash "=3.10.1"
     scryptsy "=2.0.0"
 
-litecore-message@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/litecore-message/-/litecore-message-1.0.4.tgz#8998a0dd844ddd7a6e8a50ce31822ac6b6af6a1a"
+litecore-message@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/litecore-message/-/litecore-message-1.0.5.tgz#b95155c79f4794f2c70cdc751ddd6e7f20ba2712"
+  integrity sha1-uVFVx59HlPLHDNx1Hd1ufyC6JxI=
   dependencies:
-    litecore-lib "^0.13.19"
+    litecore-lib "^0.13.22"
 
 lodash@=3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-
 lodash@^4.14.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lolex@1.3.2:
   version "1.3.2"
